@@ -14,12 +14,12 @@
 		1CE2FF641FC1F0EE00E240A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE2FF621FC1F0EE00E240A8 /* LaunchScreen.storyboard */; };
 		1CE2FF6F1FC1F0EF00E240A8 /* ColorzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2FF6E1FC1F0EF00E240A8 /* ColorzTests.swift */; };
 		1CE2FF7A1FC1F0EF00E240A8 /* ColorzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2FF791FC1F0EF00E240A8 /* ColorzUITests.swift */; };
-		23283DC21FCB1D7500FF9620 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23283DBA1FCB1D7400FF9620 /* ChromaShadeSlider.swift */; };
-		23283DC31FCB1D7500FF9620 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23283DBC1FCB1D7400FF9620 /* ChromaHandle.swift */; };
-		23283DC41FCB1D7500FF9620 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23283DBD1FCB1D7400FF9620 /* ChromaAddButton.swift */; };
-		23283DC51FCB1D7500FF9620 /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23283DBE1FCB1D7500FF9620 /* ColorModeToggleButton.swift */; };
-		23283DC61FCB1D7500FF9620 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23283DBF1FCB1D7500FF9620 /* ChromaColorPicker.swift */; };
-		23283DC71FCB1D7500FF9620 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23283DC01FCB1D7500FF9620 /* UIColor+Utilities.swift */; };
+		23109BA41FCB35D2002A13C0 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109B9E1FCB35D1002A13C0 /* ChromaShadeSlider.swift */; };
+		23109BA51FCB35D2002A13C0 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA01FCB35D2002A13C0 /* ChromaAddButton.swift */; };
+		23109BA61FCB35D2002A13C0 /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA11FCB35D2002A13C0 /* ColorModeToggleButton.swift */; };
+		23109BA71FCB35D2002A13C0 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA21FCB35D2002A13C0 /* ChromaColorPicker.swift */; };
+		23109BA81FCB35D2002A13C0 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA31FCB35D2002A13C0 /* ChromaHandle.swift */; };
+		23109BAA1FCB35DE002A13C0 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */; };
 		23283DC81FCB1D7500FF9620 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23283DC11FCB1D7500FF9620 /* Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -54,13 +54,13 @@
 		1CE2FF751FC1F0EF00E240A8 /* ColorzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE2FF791FC1F0EF00E240A8 /* ColorzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorzUITests.swift; sourceTree = "<group>"; };
 		1CE2FF7B1FC1F0EF00E240A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23283DBA1FCB1D7400FF9620 /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChromaShadeSlider.swift; path = ../../../ChromaColorPicker/ChromaColorPicker/ChromaShadeSlider.swift; sourceTree = "<group>"; };
-		23283DBB1FCB1D7400FF9620 /* ChromaColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChromaColorPicker.h; path = ../../../ChromaColorPicker/ChromaColorPicker/ChromaColorPicker.h; sourceTree = "<group>"; };
-		23283DBC1FCB1D7400FF9620 /* ChromaHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChromaHandle.swift; path = ../../../ChromaColorPicker/ChromaColorPicker/ChromaHandle.swift; sourceTree = "<group>"; };
-		23283DBD1FCB1D7400FF9620 /* ChromaAddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChromaAddButton.swift; path = ../../../ChromaColorPicker/ChromaColorPicker/ChromaAddButton.swift; sourceTree = "<group>"; };
-		23283DBE1FCB1D7500FF9620 /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorModeToggleButton.swift; path = ../../../ChromaColorPicker/ChromaColorPicker/ColorModeToggleButton.swift; sourceTree = "<group>"; };
-		23283DBF1FCB1D7500FF9620 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChromaColorPicker.swift; path = ../../../ChromaColorPicker/ChromaColorPicker/ChromaColorPicker.swift; sourceTree = "<group>"; };
-		23283DC01FCB1D7500FF9620 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Utilities.swift"; path = "../../../ChromaColorPicker/ChromaColorPicker/UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		23109B9E1FCB35D1002A13C0 /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaShadeSlider.swift; sourceTree = "<group>"; };
+		23109B9F1FCB35D1002A13C0 /* ChromaColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChromaColorPicker.h; sourceTree = "<group>"; };
+		23109BA01FCB35D2002A13C0 /* ChromaAddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaAddButton.swift; sourceTree = "<group>"; };
+		23109BA11FCB35D2002A13C0 /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModeToggleButton.swift; sourceTree = "<group>"; };
+		23109BA21FCB35D2002A13C0 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaColorPicker.swift; sourceTree = "<group>"; };
+		23109BA31FCB35D2002A13C0 /* ChromaHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaHandle.swift; sourceTree = "<group>"; };
+		23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
 		23283DC11FCB1D7500FF9620 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../ChromaColorPicker/ChromaColorPicker/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,16 +112,16 @@
 		1CE2FF581FC1F0EE00E240A8 /* Colorz */ = {
 			isa = PBXGroup;
 			children = (
+				23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */,
+				23109BA01FCB35D2002A13C0 /* ChromaAddButton.swift */,
+				23109B9F1FCB35D1002A13C0 /* ChromaColorPicker.h */,
+				23109BA21FCB35D2002A13C0 /* ChromaColorPicker.swift */,
+				23109BA31FCB35D2002A13C0 /* ChromaHandle.swift */,
+				23109B9E1FCB35D1002A13C0 /* ChromaShadeSlider.swift */,
+				23109BA11FCB35D2002A13C0 /* ColorModeToggleButton.swift */,
 				1CE2FF591FC1F0EE00E240A8 /* AppDelegate.swift */,
 				1CE2FF5B1FC1F0EE00E240A8 /* ViewController.swift */,
-				23283DBD1FCB1D7400FF9620 /* ChromaAddButton.swift */,
-				23283DBB1FCB1D7400FF9620 /* ChromaColorPicker.h */,
-				23283DBF1FCB1D7500FF9620 /* ChromaColorPicker.swift */,
-				23283DBC1FCB1D7400FF9620 /* ChromaHandle.swift */,
-				23283DBA1FCB1D7400FF9620 /* ChromaShadeSlider.swift */,
-				23283DBE1FCB1D7500FF9620 /* ColorModeToggleButton.swift */,
 				23283DC11FCB1D7500FF9620 /* Info.plist */,
-				23283DC01FCB1D7500FF9620 /* UIColor+Utilities.swift */,
 				1CE2FF5D1FC1F0EE00E240A8 /* Main.storyboard */,
 				1CE2FF601FC1F0EE00E240A8 /* Assets.xcassets */,
 				1CE2FF621FC1F0EE00E240A8 /* LaunchScreen.storyboard */,
@@ -286,14 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23283DC21FCB1D7500FF9620 /* ChromaShadeSlider.swift in Sources */,
+				23109BA41FCB35D2002A13C0 /* ChromaShadeSlider.swift in Sources */,
 				1CE2FF5C1FC1F0EE00E240A8 /* ViewController.swift in Sources */,
-				23283DC51FCB1D7500FF9620 /* ColorModeToggleButton.swift in Sources */,
+				23109BA61FCB35D2002A13C0 /* ColorModeToggleButton.swift in Sources */,
+				23109BA81FCB35D2002A13C0 /* ChromaHandle.swift in Sources */,
 				1CE2FF5A1FC1F0EE00E240A8 /* AppDelegate.swift in Sources */,
-				23283DC41FCB1D7500FF9620 /* ChromaAddButton.swift in Sources */,
-				23283DC61FCB1D7500FF9620 /* ChromaColorPicker.swift in Sources */,
-				23283DC71FCB1D7500FF9620 /* UIColor+Utilities.swift in Sources */,
-				23283DC31FCB1D7500FF9620 /* ChromaHandle.swift in Sources */,
+				23109BA51FCB35D2002A13C0 /* ChromaAddButton.swift in Sources */,
+				23109BAA1FCB35DE002A13C0 /* UIColor+Utilities.swift in Sources */,
+				23109BA71FCB35D2002A13C0 /* ChromaColorPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
