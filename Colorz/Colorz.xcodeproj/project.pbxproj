@@ -20,7 +20,6 @@
 		23109BA71FCB35D2002A13C0 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA21FCB35D2002A13C0 /* ChromaColorPicker.swift */; };
 		23109BA81FCB35D2002A13C0 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA31FCB35D2002A13C0 /* ChromaHandle.swift */; };
 		23109BAA1FCB35DE002A13C0 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */; };
-		23109BAC1FCB3675002A13C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23109BAB1FCB3675002A13C0 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 		23109BA21FCB35D2002A13C0 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaColorPicker.swift; sourceTree = "<group>"; };
 		23109BA31FCB35D2002A13C0 /* ChromaHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaHandle.swift; sourceTree = "<group>"; };
 		23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
-		23109BAB1FCB3675002A13C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../ChromaColorPicker/ChromaColorPicker/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +110,7 @@
 		1CE2FF581FC1F0EE00E240A8 /* Colorz */ = {
 			isa = PBXGroup;
 			children = (
-				23109BAB1FCB3675002A13C0 /* Info.plist */,
+				1CE2FF651FC1F0EE00E240A8 /* Info.plist */,
 				23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */,
 				23109BA01FCB35D2002A13C0 /* ChromaAddButton.swift */,
 				23109B9F1FCB35D1002A13C0 /* ChromaColorPicker.h */,
@@ -123,9 +121,8 @@
 				1CE2FF591FC1F0EE00E240A8 /* AppDelegate.swift */,
 				1CE2FF5B1FC1F0EE00E240A8 /* ViewController.swift */,
 				1CE2FF5D1FC1F0EE00E240A8 /* Main.storyboard */,
-				1CE2FF601FC1F0EE00E240A8 /* Assets.xcassets */,
 				1CE2FF621FC1F0EE00E240A8 /* LaunchScreen.storyboard */,
-				1CE2FF651FC1F0EE00E240A8 /* Info.plist */,
+				1CE2FF601FC1F0EE00E240A8 /* Assets.xcassets */,
 			);
 			path = Colorz;
 			sourceTree = "<group>";
@@ -258,7 +255,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23109BAC1FCB3675002A13C0 /* Info.plist in Resources */,
 				1CE2FF641FC1F0EE00E240A8 /* LaunchScreen.storyboard in Resources */,
 				1CE2FF611FC1F0EE00E240A8 /* Assets.xcassets in Resources */,
 				1CE2FF5F1FC1F0EE00E240A8 /* Main.storyboard in Resources */,
