@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C724FFC1FD45D04001E647A /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C724FFB1FD45D04001E647A /* MatchViewController.swift */; };
 		1CE2FF5A1FC1F0EE00E240A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2FF591FC1F0EE00E240A8 /* AppDelegate.swift */; };
 		1CE2FF5C1FC1F0EE00E240A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2FF5B1FC1F0EE00E240A8 /* ViewController.swift */; };
 		1CE2FF5F1FC1F0EE00E240A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE2FF5D1FC1F0EE00E240A8 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C724FFB1FD45D04001E647A /* MatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 		1CE2FF561FC1F0EE00E240A8 /* Colorz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE2FF591FC1F0EE00E240A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CE2FF5B1FC1F0EE00E240A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		1CE2FF581FC1F0EE00E240A8 /* Colorz */ = {
 			isa = PBXGroup;
 			children = (
+				1C724FFB1FD45D04001E647A /* MatchViewController.swift */,
 				1CE2FF651FC1F0EE00E240A8 /* Info.plist */,
 				23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */,
 				23109BA01FCB35D2002A13C0 /* ChromaAddButton.swift */,
@@ -288,7 +291,7 @@
 				23109BA81FCB35D2002A13C0 /* ChromaHandle.swift in Sources */,
 				1CE2FF5A1FC1F0EE00E240A8 /* AppDelegate.swift in Sources */,
 				23109BA51FCB35D2002A13C0 /* ChromaAddButton.swift in Sources */,
-				23ED84801FD3569D00EBE71D /* MatchViewController.swift in Sources */,
+				1C724FFC1FD45D04001E647A /* MatchViewController.swift in Sources */,
 				23109BAA1FCB35DE002A13C0 /* UIColor+Utilities.swift in Sources */,
 				23109BA71FCB35D2002A13C0 /* ChromaColorPicker.swift in Sources */,
 			);
