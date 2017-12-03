@@ -21,6 +21,7 @@
 		23109BA81FCB35D2002A13C0 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA31FCB35D2002A13C0 /* ChromaHandle.swift */; };
 		23109BAA1FCB35DE002A13C0 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */; };
 		23109BAC1FCB3675002A13C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23109BAB1FCB3675002A13C0 /* Info.plist */; };
+		23ED84801FD3569D00EBE71D /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED847F1FD3569D00EBE71D /* MatchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		23109BA31FCB35D2002A13C0 /* ChromaHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaHandle.swift; sourceTree = "<group>"; };
 		23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
 		23109BAB1FCB3675002A13C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../ChromaColorPicker/ChromaColorPicker/Info.plist; sourceTree = "<group>"; };
+		23ED847F1FD3569D00EBE71D /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				1CE2FF591FC1F0EE00E240A8 /* AppDelegate.swift */,
 				1CE2FF5B1FC1F0EE00E240A8 /* ViewController.swift */,
 				1CE2FF5D1FC1F0EE00E240A8 /* Main.storyboard */,
+				23ED847F1FD3569D00EBE71D /* MatchViewController.swift */,
 				1CE2FF601FC1F0EE00E240A8 /* Assets.xcassets */,
 				1CE2FF621FC1F0EE00E240A8 /* LaunchScreen.storyboard */,
 				1CE2FF651FC1F0EE00E240A8 /* Info.plist */,
@@ -292,6 +295,7 @@
 				23109BA81FCB35D2002A13C0 /* ChromaHandle.swift in Sources */,
 				1CE2FF5A1FC1F0EE00E240A8 /* AppDelegate.swift in Sources */,
 				23109BA51FCB35D2002A13C0 /* ChromaAddButton.swift in Sources */,
+				23ED84801FD3569D00EBE71D /* MatchViewController.swift in Sources */,
 				23109BAA1FCB35DE002A13C0 /* UIColor+Utilities.swift in Sources */,
 				23109BA71FCB35D2002A13C0 /* ChromaColorPicker.swift in Sources */,
 			);

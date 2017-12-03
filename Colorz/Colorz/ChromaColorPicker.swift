@@ -52,7 +52,7 @@ open class ChromaColorPicker: UIControl {
                 colorToggleButton.isHidden = false
             }
             else {
-                colorToggleButton.isHidden = false
+                colorToggleButton.isHidden = true
             }
         }
     }
