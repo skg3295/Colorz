@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1C724FFC1FD45D04001E647A /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C724FFB1FD45D04001E647A /* MatchViewController.swift */; };
+		1C724FFE1FD4B165001E647A /* MatchMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C724FFD1FD4B165001E647A /* MatchMaker.swift */; };
+		1C7250001FD4B16E001E647A /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C724FFF1FD4B16E001E647A /* RGB.swift */; };
+		1C7250021FD4B176001E647A /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7250011FD4B176001E647A /* HSL.swift */; };
+		1C7250041FD4B182001E647A /* ConversionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7250031FD4B182001E647A /* ConversionHelper.swift */; };
 		1CE2FF5A1FC1F0EE00E240A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2FF591FC1F0EE00E240A8 /* AppDelegate.swift */; };
 		1CE2FF5C1FC1F0EE00E240A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2FF5B1FC1F0EE00E240A8 /* ViewController.swift */; };
 		1CE2FF5F1FC1F0EE00E240A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE2FF5D1FC1F0EE00E240A8 /* Main.storyboard */; };
@@ -42,6 +46,10 @@
 
 /* Begin PBXFileReference section */
 		1C724FFB1FD45D04001E647A /* MatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		1C724FFD1FD4B165001E647A /* MatchMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchMaker.swift; path = ../../../../../Downloads/MatchMaker.swift; sourceTree = "<group>"; };
+		1C724FFF1FD4B16E001E647A /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RGB.swift; path = ../../../../../Downloads/RGB.swift; sourceTree = "<group>"; };
+		1C7250011FD4B176001E647A /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = ../../../../../Downloads/HSL.swift; sourceTree = "<group>"; };
+		1C7250031FD4B182001E647A /* ConversionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversionHelper.swift; path = ../../../../../Downloads/ConversionHelper.swift; sourceTree = "<group>"; };
 		1CE2FF561FC1F0EE00E240A8 /* Colorz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE2FF591FC1F0EE00E240A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CE2FF5B1FC1F0EE00E240A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +120,10 @@
 		1CE2FF581FC1F0EE00E240A8 /* Colorz */ = {
 			isa = PBXGroup;
 			children = (
+				1C7250031FD4B182001E647A /* ConversionHelper.swift */,
+				1C7250011FD4B176001E647A /* HSL.swift */,
+				1C724FFF1FD4B16E001E647A /* RGB.swift */,
+				1C724FFD1FD4B165001E647A /* MatchMaker.swift */,
 				1C724FFB1FD45D04001E647A /* MatchViewController.swift */,
 				1CE2FF651FC1F0EE00E240A8 /* Info.plist */,
 				23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */,
@@ -285,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C724FFE1FD4B165001E647A /* MatchMaker.swift in Sources */,
 				23109BA41FCB35D2002A13C0 /* ChromaShadeSlider.swift in Sources */,
+				1C7250001FD4B16E001E647A /* RGB.swift in Sources */,
+				1C7250021FD4B176001E647A /* HSL.swift in Sources */,
 				1CE2FF5C1FC1F0EE00E240A8 /* ViewController.swift in Sources */,
+				1C7250041FD4B182001E647A /* ConversionHelper.swift in Sources */,
 				23109BA61FCB35D2002A13C0 /* ColorModeToggleButton.swift in Sources */,
 				23109BA81FCB35D2002A13C0 /* ChromaHandle.swift in Sources */,
 				1CE2FF5A1FC1F0EE00E240A8 /* AppDelegate.swift in Sources */,
