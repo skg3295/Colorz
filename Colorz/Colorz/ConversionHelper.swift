@@ -51,35 +51,62 @@ class ConversionHelper {
         return endingRGB
     }
     
-    func convertRGBToHSL(_ rGBValue: RGB) -> HSL {
-        let startingRGB = rGBValue
+    func convertRGBToHSL(rgbValue: RGB) -> HSL {
+        let startingRGB = rgbValue
         let endingHSL = HSL()
         
         let varR = (Float(startingRGB.red) / Float(255))
         let varG = (Float(startingRGB.green) / Float(255))
         let varB = (Float(startingRGB.blue) / Float(255))
         
+        print("this is varR, and it's correct = \(String(varR))")
+        print("this is varG, and it's correct = \(String(varG))")
+        print("this is varB, and it's correct = \(String(varB))")
+        
         let varMin = min(varR, varG, varB)
-        let varMax = max(varR, varG, varG)
+        let varMax = max(varR, varG, varB)
         let delMax = varMax - varMin
         
+        print("this is varMin, correct = \(String(varMin))")
+        print("this is varMax, correct = \(String(varMax))")
+        print("this is delMax, correct = \(String(delMax))")
+        
         endingHSL.lightness = (varMax + varMin) / Float(2)
-      
+        
+        print("this is endingHSL.lightness, correct = \(String(endingHSL.lightness))")
         
         if endingHSL.lightness < 0.5 {
             endingHSL.saturation = delMax / (varMax + varMin)
+            print("point 1: endingHSL.saturation = \(String(endingHSL.saturation))")
+            
         }
         else {
             endingHSL.saturation = (Float(2) - varMax - varMin)
+            print("point 2: endingHSL.saturation, correct = \(String(endingHSL.saturation))")
+            
         }
+        
         
         let delR = (((varMax - varR) / Float(6)) + (delMax / Float(2)) / delMax)
         let delG = (((varMax - varG) / Float(6)) + (delMax / Float(2)) / delMax)
         let delB = (((varMax - varB) / Float(6)) + (delMax / Float(2)) / delMax)
         
-        if varR == varMax { endingHSL.hue = Int(delB - delG) }
-        else if varG == varMax { endingHSL.hue = Int(1/3 + delR - delB)}
-        else if varB == varMax { endingHSL.hue = Int(2/3 + delG - delR)}
+        print("this is delB = \(String(delB))")
+        print("this is delG = \(String(delG))")
+        print("this is delR = \(String(delR))")
+        
+        if varR == varMax {
+            endingHSL.hue = delB - delG
+            print("point1: endingHSL.hue = \(String(endingHSL.hue))")
+        }
+        else if varG == varMax {
+            endingHSL.hue = 1/3 + delR - delB
+            print("point2: endingHSL.hue = \(String(endingHSL.hue))")
+        }
+        else if varB == varMax {
+            endingHSL.hue = 2/3 + delG - delR
+            print("point3: endingHSL.hue = \(String(endingHSL.hue))")
+        }
         
         if endingHSL.hue < 0 {endingHSL.hue += 1}
         if endingHSL.hue > 1 {endingHSL.hue -= 1}
@@ -137,8 +164,8 @@ class ConversionHelper {
     
     
     
-    func convertRGBToHex(_ RGBValue: RGB) -> String {
-        let startingRGB = RGBValue
+    func convertRGBToHex(rgbValue: RGB) -> String {
+        let startingRGB = rgbValue
         var endingHex = String()
         
         let red = String(startingRGB.red, radix: 16)
