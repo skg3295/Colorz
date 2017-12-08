@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         let conversionItem = ConversionHelper()
         let matcher = MatchMaker()
-        let startHex = "000000"
+        let startHex = "79ff5b"
         
         let startRGB = conversionItem.convertHexToRGB(hexValue: startHex)
         let startHSL = conversionItem.convertRGBToHSL(rgbValue: startRGB)
