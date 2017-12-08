@@ -107,6 +107,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="h1b-jx-tQ3" firstAttribute="top" secondItem="pnS-W3-8g0" secondAttribute="top" constant="19" id="A6q-pH-1ct"/>
+                                    <constraint firstItem="h1b-jx-tQ3" firstAttribute="leading" secondItem="pnS-W3-8g0" secondAttribute="leading" constant="398" id="KYP-jh-1P0"/>
+                                    <constraint firstAttribute="bottom" secondItem="h1b-jx-tQ3" secondAttribute="bottom" constant="8.5" id="Mu6-Ka-o0d"/>
+                                    <constraint firstItem="h1b-jx-tQ3" firstAttribute="centerX" secondItem="pnS-W3-8g0" secondAttribute="centerX" id="fBB-0h-UIW"/>
+                                    <constraint firstAttribute="trailing" secondItem="h1b-jx-tQ3" secondAttribute="trailing" constant="398" id="gpi-IO-VUX"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
