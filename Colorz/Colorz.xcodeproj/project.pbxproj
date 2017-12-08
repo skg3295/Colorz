@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1C724FFC1FD45D04001E647A /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C724FFB1FD45D04001E647A /* MatchViewController.swift */; };
-		1C724FFE1FD4B165001E647A /* MatchMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C724FFD1FD4B165001E647A /* MatchMaker.swift */; };
-		1C7250001FD4B16E001E647A /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C724FFF1FD4B16E001E647A /* RGB.swift */; };
-		1C7250021FD4B176001E647A /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7250011FD4B176001E647A /* HSL.swift */; };
-		1C7250041FD4B182001E647A /* ConversionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7250031FD4B182001E647A /* ConversionHelper.swift */; };
 		1CE2FF5A1FC1F0EE00E240A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2FF591FC1F0EE00E240A8 /* AppDelegate.swift */; };
 		1CE2FF5C1FC1F0EE00E240A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2FF5B1FC1F0EE00E240A8 /* ViewController.swift */; };
 		1CE2FF5F1FC1F0EE00E240A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE2FF5D1FC1F0EE00E240A8 /* Main.storyboard */; };
@@ -25,12 +21,10 @@
 		23109BA71FCB35D2002A13C0 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA21FCB35D2002A13C0 /* ChromaColorPicker.swift */; };
 		23109BA81FCB35D2002A13C0 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA31FCB35D2002A13C0 /* ChromaHandle.swift */; };
 		23109BAA1FCB35DE002A13C0 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */; };
-		23109BAC1FCB3675002A13C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23109BAB1FCB3675002A13C0 /* Info.plist */; };
-		231AF3721FD63E5A00C0032F /* ConversionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231AF3711FD63E5A00C0032F /* ConversionHelper.swift */; };
-		231AF3741FD63E6500C0032F /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231AF3731FD63E6500C0032F /* HSL.swift */; };
-		231AF3761FD63E6D00C0032F /* MatchMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231AF3751FD63E6D00C0032F /* MatchMaker.swift */; };
-		231AF3781FD63E7600C0032F /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231AF3771FD63E7600C0032F /* RGB.swift */; };
-		23ED84801FD3569D00EBE71D /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED847F1FD3569D00EBE71D /* MatchViewController.swift */; };
+		23D43BA21FDA0E6400E0DEC8 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D43BA11FDA0E6300E0DEC8 /* RGB.swift */; };
+		23D43BA41FDA0E9300E0DEC8 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D43BA31FDA0E9300E0DEC8 /* HSL.swift */; };
+		23D43BA61FDA0EF300E0DEC8 /* ConversionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D43BA51FDA0EF200E0DEC8 /* ConversionHelper.swift */; };
+		23D43BAC1FDA186C00E0DEC8 /* MatchMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D43BAB1FDA186B00E0DEC8 /* MatchMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +46,6 @@
 
 /* Begin PBXFileReference section */
 		1C724FFB1FD45D04001E647A /* MatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
-		1C724FFD1FD4B165001E647A /* MatchMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchMaker.swift; path = ../../../../../Downloads/MatchMaker.swift; sourceTree = "<group>"; };
-		1C724FFF1FD4B16E001E647A /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RGB.swift; path = ../../../../../Downloads/RGB.swift; sourceTree = "<group>"; };
-		1C7250011FD4B176001E647A /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = ../../../../../Downloads/HSL.swift; sourceTree = "<group>"; };
-		1C7250031FD4B182001E647A /* ConversionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversionHelper.swift; path = ../../../../../Downloads/ConversionHelper.swift; sourceTree = "<group>"; };
 		1CE2FF561FC1F0EE00E240A8 /* Colorz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE2FF591FC1F0EE00E240A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CE2FF5B1FC1F0EE00E240A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,12 +66,10 @@
 		23109BA21FCB35D2002A13C0 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaColorPicker.swift; sourceTree = "<group>"; };
 		23109BA31FCB35D2002A13C0 /* ChromaHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaHandle.swift; sourceTree = "<group>"; };
 		23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
-		23109BAB1FCB3675002A13C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../ChromaColorPicker/ChromaColorPicker/Info.plist; sourceTree = "<group>"; };
-		231AF3711FD63E5A00C0032F /* ConversionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionHelper.swift; sourceTree = "<group>"; };
-		231AF3731FD63E6500C0032F /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSL.swift; sourceTree = "<group>"; };
-		231AF3751FD63E6D00C0032F /* MatchMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchMaker.swift; sourceTree = "<group>"; };
-		231AF3771FD63E7600C0032F /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
-		23ED847F1FD3569D00EBE71D /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		23D43BA11FDA0E6300E0DEC8 /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
+		23D43BA31FDA0E9300E0DEC8 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSL.swift; sourceTree = "<group>"; };
+		23D43BA51FDA0EF200E0DEC8 /* ConversionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionHelper.swift; sourceTree = "<group>"; };
+		23D43BAB1FDA186B00E0DEC8 /* MatchMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchMaker.swift; path = "../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/60EB456F-B094-4BB7-82CB-DCE941482848/MatchMaker.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,10 +120,10 @@
 		1CE2FF581FC1F0EE00E240A8 /* Colorz */ = {
 			isa = PBXGroup;
 			children = (
-				1C7250031FD4B182001E647A /* ConversionHelper.swift */,
-				1C7250011FD4B176001E647A /* HSL.swift */,
-				1C724FFF1FD4B16E001E647A /* RGB.swift */,
-				1C724FFD1FD4B165001E647A /* MatchMaker.swift */,
+				23D43BA51FDA0EF200E0DEC8 /* ConversionHelper.swift */,
+				23D43BA31FDA0E9300E0DEC8 /* HSL.swift */,
+				23D43BA11FDA0E6300E0DEC8 /* RGB.swift */,
+				23D43BAB1FDA186B00E0DEC8 /* MatchMaker.swift */,
 				1C724FFB1FD45D04001E647A /* MatchViewController.swift */,
 				1CE2FF651FC1F0EE00E240A8 /* Info.plist */,
 				23109BA91FCB35DE002A13C0 /* UIColor+Utilities.swift */,
@@ -309,22 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C724FFE1FD4B165001E647A /* MatchMaker.swift in Sources */,
+				23D43BA61FDA0EF300E0DEC8 /* ConversionHelper.swift in Sources */,
 				23109BA41FCB35D2002A13C0 /* ChromaShadeSlider.swift in Sources */,
-				1C7250001FD4B16E001E647A /* RGB.swift in Sources */,
-				1C7250021FD4B176001E647A /* HSL.swift in Sources */,
+				23D43BAC1FDA186C00E0DEC8 /* MatchMaker.swift in Sources */,
 				1CE2FF5C1FC1F0EE00E240A8 /* ViewController.swift in Sources */,
-				1C7250041FD4B182001E647A /* ConversionHelper.swift in Sources */,
 				23109BA61FCB35D2002A13C0 /* ColorModeToggleButton.swift in Sources */,
 				23109BA81FCB35D2002A13C0 /* ChromaHandle.swift in Sources */,
-				231AF3761FD63E6D00C0032F /* MatchMaker.swift in Sources */,
 				1CE2FF5A1FC1F0EE00E240A8 /* AppDelegate.swift in Sources */,
-				231AF3721FD63E5A00C0032F /* ConversionHelper.swift in Sources */,
-				231AF3741FD63E6500C0032F /* HSL.swift in Sources */,
 				23109BA51FCB35D2002A13C0 /* ChromaAddButton.swift in Sources */,
 				1C724FFC1FD45D04001E647A /* MatchViewController.swift in Sources */,
 				23109BAA1FCB35DE002A13C0 /* UIColor+Utilities.swift in Sources */,
-				231AF3781FD63E7600C0032F /* RGB.swift in Sources */,
+				23D43BA21FDA0E6400E0DEC8 /* RGB.swift in Sources */,
+				23D43BA41FDA0E9300E0DEC8 /* HSL.swift in Sources */,
 				23109BA71FCB35D2002A13C0 /* ChromaColorPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -466,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
