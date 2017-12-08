@@ -104,6 +104,7 @@
 				1CE2FF6D1FC1F0EE00E240A8 /* ColorzTests */,
 				1CE2FF781FC1F0EF00E240A8 /* ColorzUITests */,
 				1CE2FF571FC1F0EE00E240A8 /* Products */,
+				AC6152E51FDA0DE5000F8974 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +159,17 @@
 				1CE2FF7B1FC1F0EF00E240A8 /* Info.plist */,
 			);
 			path = ColorzUITests;
+			sourceTree = "<group>";
+		};
+		AC6152E51FDA0DE5000F8974 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				231AF3751FD63E6D00C0032F /* MatchMaker.swift */,
+				231AF3711FD63E5A00C0032F /* ConversionHelper.swift */,
+				231AF3731FD63E6500C0032F /* HSL.swift */,
+				231AF3771FD63E7600C0032F /* RGB.swift */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

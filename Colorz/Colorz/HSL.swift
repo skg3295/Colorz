@@ -8,7 +8,7 @@
 
 import Foundation
 public class HSL {
-    var hue: Int
+    var hue: Float
     var saturation: Float
     var lightness: Float
     
