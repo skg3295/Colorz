@@ -12,10 +12,29 @@ class MatchViewController: UIViewController {
     //Mark: Properties
     var hexString: String = ""
     @IBOutlet weak var pickedColor: UIImageView!
+    @IBOutlet weak var matchedColor1: UIImageView!
+    @IBOutlet weak var matchedColor2: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //pickedColor.backgroundColor = UIColor(red: <#T##CGFloat#>, green: <#T##CGFloat#>, blue: <#T##CGFloat#>, alpha: <#T##CGFloat#>)
-        // Do any additional setup after loading the view.
+        
+        let conversionHelper = ConversionHelper()
+        let matchMaker = MatchMaker()
+        
+        // Remove # from hexString
+        hexString.removeFirst()
+        print("\(hexString)")
+        let pickedRGB = conversionHelper.convertHexToRGB(hexValue: hexString)
+        pickedColor.backgroundColor = UIColor(red: CGFloat(pickedRGB.red)/255.0, green: CGFloat(pickedRGB.green)/255.0, blue: CGFloat(pickedRGB.blue)/255.0, alpha: 1.0)
+        
+        print("this is red \(pickedRGB.red)")
+        print("this is green \(pickedRGB.green)")
+        //print("this is )
+        
+        let pickedHSL1 = conversionHelper.convertRGBToHSL(rgbValue: pickedRGB)
+        let matchedHSL1 = matchMaker.findComplementary(startHSL: pickedHSL1)
+        let matchedRGB1 = conversionHelper.convertHSLToRGB(matchedHSL1)
+        matchedColor1.backgroundColor = UIColor(red: CGFloat(matchedRGB1.red)/255.0, green: CGFloat(matchedRGB1.green)/255.0, blue: CGFloat(matchedRGB1.blue)/255.0, alpha: 1.0)
         
     }
 

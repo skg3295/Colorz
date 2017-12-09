@@ -100,16 +100,16 @@ class ConversionHelper {
             print("point1: endingHSL.hue = \(String(endingHSL.hue))")
         }
         else if varG == varMax {
-            endingHSL.hue = 1/3 + delR - delB
+            endingHSL.hue = 1.0/3.0 + delR - delB
             print("point2: endingHSL.hue = \(String(endingHSL.hue))")
         }
         else if varB == varMax {
-            endingHSL.hue = 2/3 + delG - delR
+            endingHSL.hue = 2.0/3.0 + delG - delR
             print("point3: endingHSL.hue = \(String(endingHSL.hue))")
         }
         
-        if endingHSL.hue < 0 {endingHSL.hue += 1}
-        if endingHSL.hue > 1 {endingHSL.hue -= 1}
+        if endingHSL.hue < 0 {endingHSL.hue += 1.0}
+        if endingHSL.hue > 1 {endingHSL.hue -= 1.0}
         
         print("hue after conversion from RGB = \(String(endingHSL.hue))")
         print("saturation after conversion from RGB = \(String(endingHSL.saturation))")
@@ -124,21 +124,21 @@ class ConversionHelper {
         var var1: Float
         
         if (startingHSL.saturation == 0) {
-            endingRGB.red = Int(startingHSL.lightness * 255)
-            endingRGB.green = Int(startingHSL.lightness * 255)
-            endingRGB.blue = Int(startingHSL.lightness * 255)
+            endingRGB.red = Int(startingHSL.lightness * 255.0)
+            endingRGB.green = Int(startingHSL.lightness * 255.0)
+            endingRGB.blue = Int(startingHSL.lightness * 255.0)
             
             print("I think I must be the color white!")
         }
         else {
-            if (startingHSL.lightness < 0.5) { var2 = startingHSL.lightness * ( 1 + startingHSL.saturation) }
+            if (startingHSL.lightness < 0.5) { var2 = startingHSL.lightness * ( 1.0 + startingHSL.saturation) }
             else { var2 = ( startingHSL.lightness + startingHSL.saturation) - ( startingHSL.saturation * startingHSL.lightness) }
             
-            var1 = 2 * startingHSL.lightness - var2
+            var1 = 2.0 * startingHSL.lightness - var2
             
-            endingRGB.red = Int(255 * hue2RGB( var1: var1, var2: var2, varH: Float(startingHSL.hue + (1/3)) ))
-            endingRGB.green = Int(255 * hue2RGB( var1: var1, var2: var2, varH: Float(startingHSL.hue) ))
-            endingRGB.blue = Int(255 * hue2RGB( var1: var1, var2: var2, varH: Float(startingHSL.hue - (1/3)) ))
+            endingRGB.red = Int(255.0 * hue2RGB( var1: var1, var2: var2, varH: Float(startingHSL.hue + (1.0/3.0)) ))
+            endingRGB.green = Int(255.0 * hue2RGB( var1: var1, var2: var2, varH: Float(startingHSL.hue) ))
+            endingRGB.blue = Int(255.0 * hue2RGB( var1: var1, var2: var2, varH: Float(startingHSL.hue - (1.0/3.0)) ))
         }
         
         
@@ -149,15 +149,15 @@ class ConversionHelper {
     
     func hue2RGB(var1: Float, var2: Float, varH: Float) -> Float {
         var tempH: Float = varH
-        if (varH < 0) { tempH = varH + 1
+        if (varH < 0.0) { tempH = varH + 1.0
         }
-        if (varH > 1) { tempH = varH - 1
+        if (varH > 1.0) { tempH = varH - 1.0
         }
-        if ( (6 * tempH) < 1 ) {return (var1 + (var2 - var1) * 6 * tempH)
+        if ( (6.0 * tempH) < 1.0 ) {return (var1 + (var2 - var1) * 6.0 * tempH)
         }
-        if ( (2 * tempH) < 1) {return var2
+        if ( (2.0 * tempH) < 1.0) {return var2
         }
-        if ( (3 * tempH) < 2) {return (var1 + (var2 - var1) * ( (2/3) - tempH) * 6)
+        if ( (3.0 * tempH) < 2.0) {return (var1 + (var2 - var1) * ( (2.0/3.0) - tempH) * 6.0)
         }
         return var1
     }

@@ -106,7 +106,7 @@ open class ChromaColorPicker: UIControl {
         hexLabel.layer.cornerRadius = 2
         hexLabel.adjustsFontSizeToFitWidth = true
         hexLabel.textAlignment = .center
-        hexLabel.textColor = UIColor(red: 51/255.0, green:51/255.0, blue: 51/255.0, alpha: 0.65)
+        hexLabel.textColor = UIColor(red: 0.0/255.0, green:0.0/255.0, blue: 0.0/255.0, alpha: 1.00)
         
         /* Setup Shade Slider */
         shadeSlider = ChromaShadeSlider()
