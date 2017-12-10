@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="q4U-pt-6rf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="q4U-pt-6rf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -113,19 +112,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4Kp-qV-SVE" firstAttribute="top" secondItem="h1b-jx-tQ3" secondAttribute="bottom" constant="55.5" id="3YW-Q8-Eex"/>
-                            <constraint firstItem="5ty-6x-MbE" firstAttribute="leading" secondItem="3jt-DX-bx2" secondAttribute="leadingMargin" constant="20" id="Bha-fK-XK9"/>
-                            <constraint firstItem="4Kp-qV-SVE" firstAttribute="leading" secondItem="5ty-6x-MbE" secondAttribute="trailing" constant="20" id="C4b-WO-wNC"/>
                             <constraint firstItem="h1b-jx-tQ3" firstAttribute="centerX" secondItem="3jt-DX-bx2" secondAttribute="centerX" id="CYE-zU-l1Z"/>
                             <constraint firstItem="M0h-Kq-fgc" firstAttribute="top" secondItem="6fl-Uc-vk3" secondAttribute="bottom" constant="20" id="GJk-gW-Pta"/>
                             <constraint firstItem="h1b-jx-tQ3" firstAttribute="top" secondItem="M0h-Kq-fgc" secondAttribute="bottom" constant="46" id="GKh-tA-4YQ"/>
                             <constraint firstItem="5ty-6x-MbE" firstAttribute="top" secondItem="h1b-jx-tQ3" secondAttribute="bottom" constant="55.5" id="K9D-Q3-qoT"/>
                             <constraint firstItem="6fl-Uc-vk3" firstAttribute="top" secondItem="JdF-XP-G1h" secondAttribute="bottom" constant="46" id="XGp-fp-2lj"/>
                             <constraint firstItem="pjA-XO-ep9" firstAttribute="top" secondItem="5ty-6x-MbE" secondAttribute="bottom" constant="20" id="hZL-en-g6h"/>
-                            <constraint firstItem="4Kp-qV-SVE" firstAttribute="leading" secondItem="5ty-6x-MbE" secondAttribute="trailing" constant="20" id="o6N-oX-ogi"/>
                             <constraint firstItem="6fl-Uc-vk3" firstAttribute="centerX" secondItem="3jt-DX-bx2" secondAttribute="centerX" id="ocd-IK-CkY"/>
                             <constraint firstItem="pjA-XO-ep9" firstAttribute="top" secondItem="4Kp-qV-SVE" secondAttribute="bottom" constant="20" id="onQ-uJ-wk9"/>
                             <constraint firstItem="M0h-Kq-fgc" firstAttribute="centerX" secondItem="3jt-DX-bx2" secondAttribute="centerX" id="ttj-sl-U1U"/>
-                            <constraint firstItem="4Kp-qV-SVE" firstAttribute="trailing" secondItem="3jt-DX-bx2" secondAttribute="trailingMargin" constant="20" id="xtx-yd-Szw"/>
                         </constraints>
                     </view>
                     <connections>
