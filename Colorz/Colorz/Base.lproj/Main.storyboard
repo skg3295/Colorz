@@ -81,18 +81,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ty-6x-MbE">
-                                <rect key="frame" x="16" y="399" width="165" height="248"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1b-jx-tQ3">
                                 <rect key="frame" x="163" y="323" width="48" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Kp-qV-SVE">
-                                <rect key="frame" x="199" y="399" width="160" height="248"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M0h-Kq-fgc">
                                 <rect key="frame" x="98" y="110" width="179" height="167"/>
                                 <constraints>
@@ -107,30 +101,34 @@
                                     <navigationItem title="Complementary Colorz" id="Aq9-Yz-NHn"/>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tnu-gl-m7k">
+                                <rect key="frame" x="16" y="379" width="161" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yy-To-8bX">
+                                <rect key="frame" x="199" y="379" width="160" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4Kp-qV-SVE" firstAttribute="top" secondItem="h1b-jx-tQ3" secondAttribute="bottom" constant="55.5" id="3YW-Q8-Eex"/>
                             <constraint firstItem="h1b-jx-tQ3" firstAttribute="centerX" secondItem="3jt-DX-bx2" secondAttribute="centerX" id="CYE-zU-l1Z"/>
                             <constraint firstItem="M0h-Kq-fgc" firstAttribute="top" secondItem="6fl-Uc-vk3" secondAttribute="bottom" constant="20" id="GJk-gW-Pta"/>
                             <constraint firstItem="h1b-jx-tQ3" firstAttribute="top" secondItem="M0h-Kq-fgc" secondAttribute="bottom" constant="46" id="GKh-tA-4YQ"/>
-                            <constraint firstItem="5ty-6x-MbE" firstAttribute="top" secondItem="h1b-jx-tQ3" secondAttribute="bottom" constant="55.5" id="K9D-Q3-qoT"/>
                             <constraint firstItem="6fl-Uc-vk3" firstAttribute="top" secondItem="JdF-XP-G1h" secondAttribute="bottom" constant="46" id="XGp-fp-2lj"/>
-                            <constraint firstItem="pjA-XO-ep9" firstAttribute="top" secondItem="5ty-6x-MbE" secondAttribute="bottom" constant="20" id="hZL-en-g6h"/>
                             <constraint firstItem="6fl-Uc-vk3" firstAttribute="centerX" secondItem="3jt-DX-bx2" secondAttribute="centerX" id="ocd-IK-CkY"/>
-                            <constraint firstItem="pjA-XO-ep9" firstAttribute="top" secondItem="4Kp-qV-SVE" secondAttribute="bottom" constant="20" id="onQ-uJ-wk9"/>
                             <constraint firstItem="M0h-Kq-fgc" firstAttribute="centerX" secondItem="3jt-DX-bx2" secondAttribute="centerX" id="ttj-sl-U1U"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="matchedColor1" destination="5ty-6x-MbE" id="Z0Q-Qg-MdY"/>
-                        <outlet property="matchedColor2" destination="4Kp-qV-SVE" id="7bN-xj-UC5"/>
+                        <outlet property="matchedColor1" destination="tnu-gl-m7k" id="7Wb-5d-hQs"/>
+                        <outlet property="matchedColor2" destination="9yy-To-8bX" id="pDO-r8-ybK"/>
                         <outlet property="pickedColor" destination="M0h-Kq-fgc" id="qcF-LJ-ozd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hD6-bg-qr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1122" y="45"/>
+            <point key="canvasLocation" x="1120.8" y="44.527736131934034"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VM5-Gs-Q4h">
