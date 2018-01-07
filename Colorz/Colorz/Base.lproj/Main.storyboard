@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="q4U-pt-6rf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="q4U-pt-6rf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -124,9 +123,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="matchedColor1" destination="5ty-6x-MbE" id="uCA-mn-jd6"/>
+                        <outlet property="matchedColor1" destination="5ty-6x-MbE" id="Z0Q-Qg-MdY"/>
                         <outlet property="matchedColor2" destination="4Kp-qV-SVE" id="7bN-xj-UC5"/>
-                        <outlet property="pickedColor" destination="M0h-Kq-fgc" id="KOQ-5i-MSv"/>
+                        <outlet property="pickedColor" destination="M0h-Kq-fgc" id="qcF-LJ-ozd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hD6-bg-qr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
