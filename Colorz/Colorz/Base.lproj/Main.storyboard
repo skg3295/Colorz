@@ -33,16 +33,16 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TuY-uS-nvd">
-                                <rect key="frame" x="47" y="608" width="201" height="44"/>
+                                <rect key="frame" x="47" y="608" width="252" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcR-n2-iEP">
-                                <rect key="frame" x="87" y="603" width="201" height="44"/>
+                                <rect key="frame" x="47" y="603" width="252" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="26"/>
-                                <state key="normal" title="Find me a match!">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Find Me Some Colorz!">
+                                    <color key="titleColor" red="0.27939606664723399" green="0.31767404065009142" blue="0.76437579314720816" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonFindMatchesClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mLp-Xx-OCY"/>
@@ -110,7 +110,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="h1b-jx-tQ3" firstAttribute="centerX" secondItem="3jt-DX-bx2" secondAttribute="centerX" id="CYE-zU-l1Z"/>
                             <constraint firstItem="M0h-Kq-fgc" firstAttribute="top" secondItem="6fl-Uc-vk3" secondAttribute="bottom" constant="20" id="GJk-gW-Pta"/>
