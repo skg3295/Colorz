@@ -14,7 +14,7 @@ class MatchViewController: UIViewController {
     @IBOutlet weak var pickedColor: UIImageView!
     @IBOutlet weak var matchedColor1: UIImageView!
     @IBOutlet weak var matchedColor2: UIImageView!
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -43,7 +43,23 @@ class MatchViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func snapIt(_ sender: UIButton) {
+        
+        UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, UIScreen.main.scale)
+        view.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        UIImageWriteToSavedPhotosAlbum(image!, nil, nil, nil)
+    }
+    
+    
 
+        
+ 
+    
+   
+    
     /*
     // MARK: - Navigation
 
