@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     @IBAction func buttonFindMatchesClicked(_ sender: Any) {
         let matchVC = storyboard?.instantiateViewController(withIdentifier: "Matcher") as! MatchViewController
         matchVC.hexString = neatColorPicker.hexLabel.text!
+        
         navigationController?.pushViewController(matchVC, animated: true)
     }
     
