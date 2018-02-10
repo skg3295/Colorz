@@ -17,13 +17,23 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        neatColorPicker = ChromaColorPicker(frame: CGRect(x: view.frame.width/9, y: view.frame.height/3, width: 300, height: 300))
+        neatColorPicker = ChromaColorPicker(frame: CGRect(x: 0, y: view.frame.height/2.5, width: view.frame.width, height: 300))
+        
         view.addSubview(neatColorPicker)
         
         neatColorPicker.padding = 0
         neatColorPicker.hexLabel.isHidden = false
         
         neatColorPicker.layout()
+        
+        //let margins = view.layoutMarginsGuide
+        
+        // Pin the leading edge of myView to the margin's leading edge
+        //neatColorPicker.leadingAnchor.constraint(equalTo: margins.leadingAnchor).isActive = true
+        
+        // Pin the trailing edge of myView to the margin's trailing edge
+        //neatColorPicker.trailingAnchor.constraint(equalTo: margins.trailingAnchor).isActive = true
+
     }
 
     
